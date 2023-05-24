@@ -1,0 +1,86 @@
+/* Write your code here. */
+/* Write your code here. */
+.app-container {
+    top: 0dp;
+    left: 0dp;
+    width: 1920dp;
+    height: 1080dp;
+    display: flex;
+    flex-direction: row;
+    /* UI Properties */
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .gallery-container {
+    top: 64dp;
+    left: 60dp;
+    width: 1126dp;
+    display: flex;
+    flex-direction: row;
+    height: 768dp;
+    /* UI Properties */
+    background: transparent 0% 0% no-repeat padding-box;
+    border-radius: 50dp;
+    opacity: 1;
+  }
+  .mal {
+    float: right;
+    width: 30vw;
+    align-self: center;
+    padding: 30px;
+    height: 60vh;
+  }
+  .selected-image {
+    top: 64dp;
+    left: 60dp;
+    padding: 40px;
+    width: 50vw;
+    height: 50vh;
+    /* UI Properties */
+    background: transparent 0% 0% no-repeat padding-box;
+    border-radius: 50dp;
+    opacity: 1;
+  }
+  
+  .heading {
+    color: #1e293b;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+  }
+  
+  .description {
+    color: #64748b;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+  }
+ 
+  
+  .text {
+    top: 170dp;
+    left: 1266dp;
+    width: 590dp;
+    height: 540dp;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16dp/18dp Ubuntu;
+    letter-spacing: 0dp;
+    color: #b4b3b3;
+    opacity: 1;
+  }
+  
+  .movie-image {
+    width: 200px;
+    max-height: 150px;
+    border-radius: 8px;
+    margin-inline: 15px;
+  }
+  
+  .thumbnail-list{
+
+    display: flex;
+    flex-direction: row;
+  }

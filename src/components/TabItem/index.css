@@ -1,0 +1,42 @@
+.thumbnail-list-item {
+  width: 205dp;
+  height: 171dp;
+  /* UI Properties */
+  display: flex;
+  flex-direction: row;
+  background: transparent 0% 0% no-repeat padding-box;
+  border-radius: 20dp;
+  padding: 10px;
+  list-style-type:none;
+  opacity: 1;
+}
+
+.thumbnail-button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+.thumbnail-active {
+  top: 864dp;
+  left: 515dp;
+  width: 205dp;
+  height: 171dp;
+  /* UI Properties */
+  background-color: gray;
+  border-radius: 20dp;
+  opacity: 1;
+}
+.thumbnail {
+  width: 205dp;
+  height: 171dp;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  border-radius: 20dp;
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
+}
